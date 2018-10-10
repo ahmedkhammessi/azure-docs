@@ -207,7 +207,7 @@ In your code, create a class that implements `TelemetryProcessor`:
     public class SuccessFilter implements TelemetryProcessor {
 
        /* Any parameters that are required to support the filter.*/
-       private final String successful;
+       private String successful;
 
        /* Initializers for the parameters, named "setParameterName" */
        public void setNotNeeded(String successful)
